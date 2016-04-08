@@ -1502,7 +1502,7 @@ bool Variant::SerializeToXml(string &result, bool prettyPrint) {
 		result = printer.Str();
 	} else {
 		stringstream ss;
-		ss << document;
+//		ss << document;
 		result = ss.str();
 	}
 
@@ -1904,7 +1904,7 @@ TiXmlElement *Variant::SerializeToXmlElement(string &name) {
 				pResult = new TiXmlElement("MAP");
 			} else {
 				pResult = new TiXmlElement("TYPED_MAP");
-				pResult->SetAttribute("typeName", _value.m->typeName);
+				pResult->SetAttribute("typeName", _value.m->typeName.c_str());
 			}
 			pResult->SetAttribute("isArray", _value.m->isArray ? "true" : "false");
 
@@ -1928,7 +1928,7 @@ TiXmlElement *Variant::SerializeToXmlElement(string &name) {
 		}
 	}
 	if (pResult != NULL) {
-		pResult->SetAttribute("name", name);
+		pResult->SetAttribute("name", name.c_str());
 	}
 	return pResult;
 }
