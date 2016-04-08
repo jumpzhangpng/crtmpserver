@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              D3CE3D047D4846D7B077B371 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F6671922EA6A4C8D97B65258 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            2BD35F6071E44E2DB91A3C0D /* CMake Rules */,
+                     );
+                     dependencies = (
+                            D4D3CA5688104C5BA446CBF2 /* PBXTargetDependency */,
+                            681EC84EB47045248A80D428 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              2F789812D405442CBDBB38BB /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F412D47D303C41BDA1DB3ADE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            A319EFE8ED5C43B48ADAD4AE /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              AE84D2E170F649238AD19A79 /* flvplayback_common_gch */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1F385F4A5C3148D7B10CF705 /* Build configuration list for PBXAggregateTarget "flvplayback_common_gch" */;
+                     buildPhases = (
+                            20A624715FC14950BE61F28A /* CMake Rules */,
+                     );
+                     dependencies = (
+                            592260A792194667A5969DE6 /* PBXTargetDependency */,
+                     );
+                     name = flvplayback_common_gch;
+                     productName = flvplayback_common_gch;
+              };
+              9706F66AFBF5458E9B4D6DFB /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = D670420D6E3D499A950A00CC /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            E8C8F4108CA84C389682183A /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            D8DE137C3ABF4B6A9BF0B806 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+15897EAB81A4470290D34396 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 635FF536F5D94AD482B82F74 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+2D93C9207DA84989B7A237A1 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplayback.cpp */ = {isa = PBXBuildFile; fileRef = 936AC2DC357843069BC055A5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplayback.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3C073BAFF5534567B9A55813 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplaybackapplication.cpp */ = {isa = PBXBuildFile; fileRef = F0E1518D5DAB4E2E95B31278 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplaybackapplication.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BF884FC1ED9F4AE99F929590 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/httpappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 0136158F5E73453F9A008FBE /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/httpappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+216C96F0718045D28F99C69D /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/liveflvappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = F57A896D8EAF469698C80A7B /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/liveflvappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C2E5678A1B7943C6A3DC50D5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/mmsappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 24C43C4B09C2404DAEDCC75C /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/mmsappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8FA126AF483D4BB882DB517C /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rawhttpstreamappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 400D65C10ECA450889EFF761 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rawhttpstreamappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F6AAE9E6DC14441481228CB1 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtmpappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 930A9828F7C54E35B86C7639 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtmpappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+218DA0B5264A4467851172B9 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtpappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 0CE822FCE7CB4D2C9256CF4E /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtpappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4C5829A4361F4742BB4EA8B5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtspappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 548353B3F09444B09E64914A /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtspappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+123CCF944B4544A7ADD2048B /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/tsappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = DABA76B79D0D49EF8B65CE51 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/tsappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              10814E1F4890453EA898A6CF /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              C962D49C7D1343338021B539 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              F94DCA9DB4754E018D64B8B3 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              3C2B17FAAA464E86A8D9DDDC /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              AD839CD11E934F8FA799CF09 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              8CF78D3F2A6D452892FDF0F7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BCE617FA2B7747399BCFEE4B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FA7D68002D0248A6BF96BD0F;
+                     remoteInfo = flvplayback;
+              };
+              74930F03B59E451A81A1F052 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BCE617FA2B7747399BCFEE4B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2F789812D405442CBDBB38BB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              429B4C4437AC45C49C4788CC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BCE617FA2B7747399BCFEE4B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = AE84D2E170F649238AD19A79;
+                     remoteInfo = flvplayback_common_gch;
+              };
+              494AB70436E242FEA94E0057 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BCE617FA2B7747399BCFEE4B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2F789812D405442CBDBB38BB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              6CACB2FC077D470DA9BD63FB /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BCE617FA2B7747399BCFEE4B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2F789812D405442CBDBB38BB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              E309E12AD04F466FB2071DC0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BCE617FA2B7747399BCFEE4B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3CE3D047D4846D7B077B371;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+635FF536F5D94AD482B82F74 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+936AC2DC357843069BC055A5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplayback.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "flvplayback.cpp"; path = "../../../../sources/applications/flvplayback/src/flvplayback.cpp"; sourceTree = SOURCE_ROOT; };
+F0E1518D5DAB4E2E95B31278 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplaybackapplication.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "flvplaybackapplication.cpp"; path = "../../../../sources/applications/flvplayback/src/flvplaybackapplication.cpp"; sourceTree = SOURCE_ROOT; };
+0136158F5E73453F9A008FBE /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/httpappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "httpappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/httpappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+F57A896D8EAF469698C80A7B /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/liveflvappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "liveflvappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/liveflvappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+24C43C4B09C2404DAEDCC75C /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/mmsappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "mmsappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/mmsappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+400D65C10ECA450889EFF761 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rawhttpstreamappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "rawhttpstreamappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/rawhttpstreamappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+930A9828F7C54E35B86C7639 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtmpappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "rtmpappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/rtmpappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+0CE822FCE7CB4D2C9256CF4E /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtpappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "rtpappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/rtpappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+548353B3F09444B09E64914A /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtspappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "rtspappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/rtspappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+DABA76B79D0D49EF8B65CE51 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/tsappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "tsappprotocolhandler.cpp"; path = "../../../../sources/applications/flvplayback/src/tsappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+04F15D9C8A534B41958B656C /* flvplayback */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libflvplayback.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              0D6FBC4E7EE8424E80709B66  = {
+                     isa = PBXGroup;
+                     children = (
+                            94B5F6E887E443549D1F5752 /* Sources */,
+                            4A182371B34041B2A689B7C5 /* Resources */,
+                            1D87ADA156B0443082DF6781 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              94B5F6E887E443549D1F5752 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            67BA2565F042492EB38F5E51 /* ALL_BUILD */,
+                            E5B5175FE2AA4D599CFA8E30 /* ZERO_CHECK */,
+                            7753579677EC4653B3FF98FF /* flvplayback */,
+                            5798CF1C6245420F8263CE6B /* flvplayback_common_gch */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              4A182371B34041B2A689B7C5 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              67BA2565F042492EB38F5E51 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4E36A6E97B1948898929AC90 /* CMake Rules */,
+                            635FF536F5D94AD482B82F74 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              4E36A6E97B1948898929AC90 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              E5B5175FE2AA4D599CFA8E30 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B4AAA5DA50FC497D9489716B /* CMake Rules */,
+                            635FF536F5D94AD482B82F74 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              B4AAA5DA50FC497D9489716B /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              7753579677EC4653B3FF98FF /* flvplayback */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EA3E44269CC848228A660BA0 /* Source Files */,
+                            635FF536F5D94AD482B82F74 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */,
+                     );
+                     name = flvplayback;
+                     sourceTree = "<group>";
+              };
+              EA3E44269CC848228A660BA0 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            936AC2DC357843069BC055A5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplayback.cpp */,
+                            F0E1518D5DAB4E2E95B31278 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplaybackapplication.cpp */,
+                            0136158F5E73453F9A008FBE /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/httpappprotocolhandler.cpp */,
+                            F57A896D8EAF469698C80A7B /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/liveflvappprotocolhandler.cpp */,
+                            24C43C4B09C2404DAEDCC75C /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/mmsappprotocolhandler.cpp */,
+                            400D65C10ECA450889EFF761 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rawhttpstreamappprotocolhandler.cpp */,
+                            930A9828F7C54E35B86C7639 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtmpappprotocolhandler.cpp */,
+                            0CE822FCE7CB4D2C9256CF4E /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtpappprotocolhandler.cpp */,
+                            548353B3F09444B09E64914A /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtspappprotocolhandler.cpp */,
+                            DABA76B79D0D49EF8B65CE51 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/tsappprotocolhandler.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              5798CF1C6245420F8263CE6B /* flvplayback_common_gch */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1CE42D26F50241718D0AF5EF /* CMake Rules */,
+                            635FF536F5D94AD482B82F74 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback/CMakeLists.txt */,
+                     );
+                     name = flvplayback_common_gch;
+                     sourceTree = "<group>";
+              };
+              1CE42D26F50241718D0AF5EF /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1D87ADA156B0443082DF6781 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            04F15D9C8A534B41958B656C /* flvplayback */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              FA7D68002D0248A6BF96BD0F /* flvplayback */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B9261DD41D6545029749C29F /* Build configuration list for PBXNativeTarget "flvplayback" */;
+                     buildPhases = (
+                            BD1A525EF4954C3BAE4198FC /* Sources */,
+                            D09E5851A4754707B62CB8F2 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            1A2C1B7E90C341DDBDC66306 /* PBXTargetDependency */,
+                            8240A6C55CD44FD9B1C0E73B /* PBXTargetDependency */,
+                     );
+                     name = flvplayback;
+                     productName = flvplayback;
+                     productReference = 04F15D9C8A534B41958B656C /* flvplayback */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              BCE617FA2B7747399BCFEE4B /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 19E14460CAAB4ADF868D10AF /* Build configuration list for PBXProject  "flvplayback" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            C962D49C7D1343338021B539 /* Debug */,
+                            F94DCA9DB4754E018D64B8B3 /* Release */,
+                            3C2B17FAAA464E86A8D9DDDC /* MinSizeRel */,
+                            AD839CD11E934F8FA799CF09 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 0D6FBC4E7EE8424E80709B66;
+                     projectDirPath = /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/flvplayback;
+                     projectRoot = "";
+                     targets = (
+                            D3CE3D047D4846D7B077B371 /* ALL_BUILD */,
+                            2F789812D405442CBDBB38BB /* ZERO_CHECK */,
+                            FA7D68002D0248A6BF96BD0F /* flvplayback */,
+                            AE84D2E170F649238AD19A79 /* flvplayback_common_gch */,
+                            9706F66AFBF5458E9B4D6DFB /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              667F0ECEBE8743F0B0DFC2D7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              2BD35F6071E44E2DB91A3C0D /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              ABE992C0CC054E1D8C132DB4 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A319EFE8ED5C43B48ADAD4AE /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              D09E5851A4754707B62CB8F2 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/CMakeScripts/flvplayback_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              DCA019BEC04144FFA5608EF4 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              20A624715FC14950BE61F28A /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/CMakeScripts/flvplayback_common_gch_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              70F57243582E49A9867E419E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E8C8F4108CA84C389682183A /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              BD1A525EF4954C3BAE4198FC /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            2D93C9207DA84989B7A237A1 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplayback.cpp */,
+                            3C073BAFF5534567B9A55813 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/flvplaybackapplication.cpp */,
+                            BF884FC1ED9F4AE99F929590 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/httpappprotocolhandler.cpp */,
+                            216C96F0718045D28F99C69D /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/liveflvappprotocolhandler.cpp */,
+                            C2E5678A1B7943C6A3DC50D5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/mmsappprotocolhandler.cpp */,
+                            8FA126AF483D4BB882DB517C /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rawhttpstreamappprotocolhandler.cpp */,
+                            F6AAE9E6DC14441481228CB1 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtmpappprotocolhandler.cpp */,
+                            218DA0B5264A4467851172B9 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtpappprotocolhandler.cpp */,
+                            4C5829A4361F4742BB4EA8B5 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/rtspappprotocolhandler.cpp */,
+                            123CCF944B4544A7ADD2048B /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/src/tsappprotocolhandler.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              D4D3CA5688104C5BA446CBF2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FA7D68002D0248A6BF96BD0F /* flvplayback */;
+                     targetProxy = 8CF78D3F2A6D452892FDF0F7 /* PBXContainerItemProxy */;
+              };
+              681EC84EB47045248A80D428 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2F789812D405442CBDBB38BB /* ZERO_CHECK */;
+                     targetProxy = 74930F03B59E451A81A1F052 /* PBXContainerItemProxy */;
+              };
+              1A2C1B7E90C341DDBDC66306 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = AE84D2E170F649238AD19A79 /* flvplayback_common_gch */;
+                     targetProxy = 429B4C4437AC45C49C4788CC /* PBXContainerItemProxy */;
+              };
+              8240A6C55CD44FD9B1C0E73B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2F789812D405442CBDBB38BB /* ZERO_CHECK */;
+                     targetProxy = 494AB70436E242FEA94E0057 /* PBXContainerItemProxy */;
+              };
+              592260A792194667A5969DE6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2F789812D405442CBDBB38BB /* ZERO_CHECK */;
+                     targetProxy = 6CACB2FC077D470DA9BD63FB /* PBXContainerItemProxy */;
+              };
+              D8DE137C3ABF4B6A9BF0B806 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3CE3D047D4846D7B077B371 /* ALL_BUILD */;
+                     targetProxy = E309E12AD04F466FB2071DC0 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              8753CBF47AA14C699BDEEE22 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/build;
+                     };
+                     name = Debug;
+              };
+              727ABBFFBD794E9FB17C13E9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/build;
+                     };
+                     name = Release;
+              };
+              1FD59BD757FA4949A635CC24 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/build;
+                     };
+                     name = MinSizeRel;
+              };
+              6F5E1752E1E04BF0A3707F3E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              384903183F134E479B47EA9E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CA127BD0FE6545D8BE1BBEA5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              7DEC8E4374A540039C104A31 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              007655F141A643F7A2A43CCD /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              45BFA457BAE9438EAF46C990 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              47C1359FE15A441C9743B968 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2C0E0639AA7B4E229D7EB0E3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              CA94DE63F4E04A078C53DD50 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              2C880368C9E24C8482932A5B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", flvplayback_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/Debug;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5    -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti        -DWITH_SANITY_INPUT_BUFFER -DVALIDATE_FROMAT_SPECIFIERS -Wformat=2 -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/Debug/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/Debug/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              56D5AD1D5FC3452C8FA54403 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", flvplayback_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/Release;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5     -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch   ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti        -fvisibility=hidden -fno-strict-aliasing -DSHORT_PATH_IN_LOGGER=41 -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch -g  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/Release/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/Release/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              07808DAA041B44B8B2AF4E2C /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", flvplayback_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/MinSizeRel;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5     -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti     -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/MinSizeRel/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/MinSizeRel/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8D2C82BDE80144B6A4F82059 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", flvplayback_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback/RelWithDebInfo;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5        -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti        -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/RelWithDebInfo/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/RelWithDebInfo/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              8A0C882D928D41128C05044C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9A5A40C34F3740C9BA843FE3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              0946682420B94A278FC9C481 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              53D7720BFEB1474FB1853C5C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = flvplayback_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E43EC498DA294BCA8E33BFC1 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              193293125FEF4F2F903E910A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F34E07E385BB42D4970F1C43 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8BEF16066BF44C0FB9DFE79F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/flvplayback/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/flvplayback;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              19E14460CAAB4ADF868D10AF /* Build configuration list for PBXProject  "flvplayback" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8753CBF47AA14C699BDEEE22 /* Debug */,
+                            727ABBFFBD794E9FB17C13E9 /* Release */,
+                            1FD59BD757FA4949A635CC24 /* MinSizeRel */,
+                            6F5E1752E1E04BF0A3707F3E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F6671922EA6A4C8D97B65258 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            384903183F134E479B47EA9E /* Debug */,
+                            CA127BD0FE6545D8BE1BBEA5 /* Release */,
+                            7DEC8E4374A540039C104A31 /* MinSizeRel */,
+                            007655F141A643F7A2A43CCD /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F412D47D303C41BDA1DB3ADE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            45BFA457BAE9438EAF46C990 /* Debug */,
+                            47C1359FE15A441C9743B968 /* Release */,
+                            2C0E0639AA7B4E229D7EB0E3 /* MinSizeRel */,
+                            CA94DE63F4E04A078C53DD50 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B9261DD41D6545029749C29F /* Build configuration list for PBXNativeTarget "flvplayback" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2C880368C9E24C8482932A5B /* Debug */,
+                            56D5AD1D5FC3452C8FA54403 /* Release */,
+                            07808DAA041B44B8B2AF4E2C /* MinSizeRel */,
+                            8D2C82BDE80144B6A4F82059 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1F385F4A5C3148D7B10CF705 /* Build configuration list for PBXAggregateTarget "flvplayback_common_gch" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8A0C882D928D41128C05044C /* Debug */,
+                            9A5A40C34F3740C9BA843FE3 /* Release */,
+                            0946682420B94A278FC9C481 /* MinSizeRel */,
+                            53D7720BFEB1474FB1853C5C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D670420D6E3D499A950A00CC /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E43EC498DA294BCA8E33BFC1 /* Debug */,
+                            193293125FEF4F2F903E910A /* Release */,
+                            F34E07E385BB42D4970F1C43 /* MinSizeRel */,
+                            8BEF16066BF44C0FB9DFE79F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = BCE617FA2B7747399BCFEE4B;
+}

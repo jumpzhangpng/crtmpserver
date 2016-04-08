@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              D3CE3D047D4846D7B077B371 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2CF1A29D29B44D488726F2A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            93F91F46DB824A6B9E410F94 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            1FE466DB111B4FFC8270720C /* PBXTargetDependency */,
+                            8EA4E5B3D63F44B0870525D4 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              2F789812D405442CBDBB38BB /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4F57AB3BBD78451A8D96D2EE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            EFD85D03724347A19186F73B /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              26A2291546924DB4B6D43AFE /* admin_common_gch */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 5E82CD6C62E94297AA211EAB /* Build configuration list for PBXAggregateTarget "admin_common_gch" */;
+                     buildPhases = (
+                            7DB5402BE56F41EDAE1DEAFF /* CMake Rules */,
+                     );
+                     dependencies = (
+                            D5F6C8D160284BB78684F660 /* PBXTargetDependency */,
+                     );
+                     name = admin_common_gch;
+                     productName = admin_common_gch;
+              };
+              9706F66AFBF5458E9B4D6DFB /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 72658C445C414507B6B32EBB /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            E622FD9207BF4B2DA5240B3C /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            8B14DFE6549547429550FDA6 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+1638BFB9B12E4E838EC53814 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BBAB7E1F621440C4A5D4F322 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+F8721E9259C846F4806D6FC1 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/admin.cpp */ = {isa = PBXBuildFile; fileRef = FDAAAC6F424B48BE84E3D3F4 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/admin.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C1ACCA8279134460ADBE3913 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/adminapplication.cpp */ = {isa = PBXBuildFile; fileRef = 9E6FF0A0EE5B48F19CB8AED2 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/adminapplication.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5536DBBA66964109B90A1BF0 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/cliappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = DA86E809E2E04A18B8B8E4A0 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/cliappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+688C50E8B17643F89CE1DCCB /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/rtmpappprotocolhandler.cpp */ = {isa = PBXBuildFile; fileRef = 1FEB7AA90BAC4AB18E05007E /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/rtmpappprotocolhandler.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              AD0743719D814B5C912F20B6 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              194CDF86CBAF40F2A4707F27 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              DEE042973C1147E4B1D0FD0C /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              C8759B65120E42DDB9AC7334 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              8CDED8F2BDC34CDAA7933DF9 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              0ECF1EFD9D9C4437BE95B242 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0FAF3D6F675B441E8DB6A35B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3273EC9655224D13A21396FE;
+                     remoteInfo = admin;
+              };
+              35A1EF67DBD14599812A60AE /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0FAF3D6F675B441E8DB6A35B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2F789812D405442CBDBB38BB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              B320FF6C82E4458C8DB3611A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0FAF3D6F675B441E8DB6A35B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 26A2291546924DB4B6D43AFE;
+                     remoteInfo = admin_common_gch;
+              };
+              A97D6B1FB15946DDB1FB363B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0FAF3D6F675B441E8DB6A35B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2F789812D405442CBDBB38BB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              9EF6378A10304CDF8473803F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0FAF3D6F675B441E8DB6A35B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2F789812D405442CBDBB38BB;
+                     remoteInfo = ZERO_CHECK;
+              };
+              13647B6F021E4573BC93AC6C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 0FAF3D6F675B441E8DB6A35B /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D3CE3D047D4846D7B077B371;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+BBAB7E1F621440C4A5D4F322 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+FDAAAC6F424B48BE84E3D3F4 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/admin.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "admin.cpp"; path = "../../../../sources/applications/admin/src/admin.cpp"; sourceTree = SOURCE_ROOT; };
+9E6FF0A0EE5B48F19CB8AED2 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/adminapplication.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "adminapplication.cpp"; path = "../../../../sources/applications/admin/src/adminapplication.cpp"; sourceTree = SOURCE_ROOT; };
+DA86E809E2E04A18B8B8E4A0 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/cliappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "cliappprotocolhandler.cpp"; path = "../../../../sources/applications/admin/src/cliappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+1FEB7AA90BAC4AB18E05007E /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/rtmpappprotocolhandler.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "rtmpappprotocolhandler.cpp"; path = "../../../../sources/applications/admin/src/rtmpappprotocolhandler.cpp"; sourceTree = SOURCE_ROOT; };
+F459085A46BB4D3EB3667DB5 /* admin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libadmin.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              25596A7C2D134BAA92517F3F  = {
+                     isa = PBXGroup;
+                     children = (
+                            EA2837089041495995F5A590 /* Sources */,
+                            072316D9BFDB4EDC98359688 /* Resources */,
+                            8C2A995DFC8C4BF69935583E /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              EA2837089041495995F5A590 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FBE998DB3BF24C4AAF0ABEA9 /* ALL_BUILD */,
+                            83F7A98206144B47BB474183 /* ZERO_CHECK */,
+                            51FE78EFBC3B48D286D832EB /* admin */,
+                            75346969FD3549E3AFA39E7B /* admin_common_gch */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              072316D9BFDB4EDC98359688 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              FBE998DB3BF24C4AAF0ABEA9 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            21A54E66A77A4C9285EFA21F /* CMake Rules */,
+                            BBAB7E1F621440C4A5D4F322 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              21A54E66A77A4C9285EFA21F /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              83F7A98206144B47BB474183 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BBF30024B52F4018A6D2CAE4 /* CMake Rules */,
+                            BBAB7E1F621440C4A5D4F322 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              BBF30024B52F4018A6D2CAE4 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              51FE78EFBC3B48D286D832EB /* admin */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C6F2C848E3924B67A653FB02 /* Source Files */,
+                            BBAB7E1F621440C4A5D4F322 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */,
+                     );
+                     name = admin;
+                     sourceTree = "<group>";
+              };
+              C6F2C848E3924B67A653FB02 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FDAAAC6F424B48BE84E3D3F4 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/admin.cpp */,
+                            9E6FF0A0EE5B48F19CB8AED2 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/adminapplication.cpp */,
+                            DA86E809E2E04A18B8B8E4A0 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/cliappprotocolhandler.cpp */,
+                            1FEB7AA90BAC4AB18E05007E /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/rtmpappprotocolhandler.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              75346969FD3549E3AFA39E7B /* admin_common_gch */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1A2865FE2768452CBB9296D6 /* CMake Rules */,
+                            BBAB7E1F621440C4A5D4F322 /* /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin/CMakeLists.txt */,
+                     );
+                     name = admin_common_gch;
+                     sourceTree = "<group>";
+              };
+              1A2865FE2768452CBB9296D6 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              8C2A995DFC8C4BF69935583E /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F459085A46BB4D3EB3667DB5 /* admin */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              3273EC9655224D13A21396FE /* admin */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = F022FD9FF47A4AB3B7C762B7 /* Build configuration list for PBXNativeTarget "admin" */;
+                     buildPhases = (
+                            6BF596A99C464B36892637DE /* Sources */,
+                            C2297A3084954501B5BC1CF2 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            A9400F6FF38E4E2DBA342D41 /* PBXTargetDependency */,
+                            3111222038D4463EB2C52FE9 /* PBXTargetDependency */,
+                     );
+                     name = admin;
+                     productName = admin;
+                     productReference = F459085A46BB4D3EB3667DB5 /* admin */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              0FAF3D6F675B441E8DB6A35B /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = F8212FAC257B4D25A80F5916 /* Build configuration list for PBXProject  "admin" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            194CDF86CBAF40F2A4707F27 /* Debug */,
+                            DEE042973C1147E4B1D0FD0C /* Release */,
+                            C8759B65120E42DDB9AC7334 /* MinSizeRel */,
+                            8CDED8F2BDC34CDAA7933DF9 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 25596A7C2D134BAA92517F3F;
+                     projectDirPath = /Users/zhangpeng/rtmp/crtmpserver/builders/cmake/applications/admin;
+                     projectRoot = "";
+                     targets = (
+                            D3CE3D047D4846D7B077B371 /* ALL_BUILD */,
+                            2F789812D405442CBDBB38BB /* ZERO_CHECK */,
+                            3273EC9655224D13A21396FE /* admin */,
+                            26A2291546924DB4B6D43AFE /* admin_common_gch */,
+                            9706F66AFBF5458E9B4D6DFB /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              FD06CA604A3446EDAFB2843E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              93F91F46DB824A6B9E410F94 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              92523A96EDBA4AAF8E337E05 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              EFD85D03724347A19186F73B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C2297A3084954501B5BC1CF2 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/CMakeScripts/admin_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E611F92A79B746088699153E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7DB5402BE56F41EDAE1DEAFF /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/CMakeScripts/admin_common_gch_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              881966B2330648889D164C0A /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              E622FD9207BF4B2DA5240B3C /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin -f /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              6BF596A99C464B36892637DE /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            F8721E9259C846F4806D6FC1 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/admin.cpp */,
+                            C1ACCA8279134460ADBE3913 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/adminapplication.cpp */,
+                            5536DBBA66964109B90A1BF0 /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/cliappprotocolhandler.cpp */,
+                            688C50E8B17643F89CE1DCCB /* /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/src/rtmpappprotocolhandler.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              1FE466DB111B4FFC8270720C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3273EC9655224D13A21396FE /* admin */;
+                     targetProxy = 0ECF1EFD9D9C4437BE95B242 /* PBXContainerItemProxy */;
+              };
+              8EA4E5B3D63F44B0870525D4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2F789812D405442CBDBB38BB /* ZERO_CHECK */;
+                     targetProxy = 35A1EF67DBD14599812A60AE /* PBXContainerItemProxy */;
+              };
+              A9400F6FF38E4E2DBA342D41 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 26A2291546924DB4B6D43AFE /* admin_common_gch */;
+                     targetProxy = B320FF6C82E4458C8DB3611A /* PBXContainerItemProxy */;
+              };
+              3111222038D4463EB2C52FE9 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2F789812D405442CBDBB38BB /* ZERO_CHECK */;
+                     targetProxy = A97D6B1FB15946DDB1FB363B /* PBXContainerItemProxy */;
+              };
+              D5F6C8D160284BB78684F660 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2F789812D405442CBDBB38BB /* ZERO_CHECK */;
+                     targetProxy = 9EF6378A10304CDF8473803F /* PBXContainerItemProxy */;
+              };
+              8B14DFE6549547429550FDA6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D3CE3D047D4846D7B077B371 /* ALL_BUILD */;
+                     targetProxy = 13647B6F021E4573BC93AC6C /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              CE9FEC46EAFD4D50A8EBC08B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/build;
+                     };
+                     name = Debug;
+              };
+              0A964683B0294B41BE9680D2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/build;
+                     };
+                     name = Release;
+              };
+              563F2A2E883A4FD5B9DDB44E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/build;
+                     };
+                     name = MinSizeRel;
+              };
+              B296F62AE33641A2A7729778 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              D1FB4C9CE2D24E28BA0069F0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FA2B9C2739B04417A30B08BB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              AD81D12A5A83454D8F5CB006 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              85E7693B3C184DB8B2F10978 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E69CC3FE9B7D4EAF8AE163EC /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FF6A73756CB347399E9FFD25 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3E08DC87AA1F4FE38690EA02 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              B2FB9E50FA9E43108C1DD577 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              F176B5D0652A4611BC09F23D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", admin_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/Debug;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5    -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti        -DWITH_SANITY_INPUT_BUFFER -DVALIDATE_FROMAT_SPECIFIERS -Wformat=2 -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/Debug/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/Debug/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              075D5288DC724945B3E60572 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", admin_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/Release;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5     -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch   ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti        -fvisibility=hidden -fno-strict-aliasing -DSHORT_PATH_IN_LOGGER=41 -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch -g  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/Release/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/Release/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F0ED3EEC66264F0B85E2EB40 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", admin_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/MinSizeRel;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5     -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti     -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/MinSizeRel/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/MinSizeRel/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              6308E8DE1DD3431F9B1773F5 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "";
+                            DYLIB_CURRENT_VERSION = "";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", admin_EXPORTS, LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin/RelWithDebInfo;
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5        -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_CPLUSPLUSFLAGS = " -Wall -Wunused-private-field -mmacosx-version-min=10.5 -fno-rtti        -DNDEBUG -fPIC -I/Users/zhangpeng/rtmp/crtmpserver/builders/xcode/precompiled.gch/Debug.c++ -include common.h -Winvalid-pch  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names  /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/thelib/RelWithDebInfo/libthelib.dylib /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/common/RelWithDebInfo/libcommon.dylib /usr/local/lib/liblua.dylib /usr/local/lib/libtinyxml.dylib /usr/lib/libdl.dylib /usr/lib/libssl.dylib /usr/lib/libcrypto.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              9A0E26DC00DB4E43800856EF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8F03DA0F9FA540E9B38B7AB6 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              01D7E88D3E784A129BC27B37 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              E4F76132426F403E9A51F8FC /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", LITTLE_ENDIAN_BYTE_ALIGNED, HAS_PROTOCOL_HTTP, HAS_PROTOCOL_RTMP, HAS_PROTOCOL_LIVEFLV, HAS_PROTOCOL_RTP, HAS_PROTOCOL_TS, HAS_PROTOCOL_VAR, HAS_PROTOCOL_CLI, HAS_MEDIA_MP3, HAS_MEDIA_MP4, HAS_MEDIA_FLV, GLOBALLY_ACCOUNT_BYTES, "'CreateRTCPPacket=CreateRTCPPacket_mystyle_only_once'", "'FeedDataAudioMPEG4Generic=FeedDataAudioMPEG4Generic_one_by_one'", "'HandleTSVideoData=HandleVideoData_version3'", HAS_LUA, __USE_FILE_OFFSET64, "'_FILE_OFFSET_BITS=64'", OSX, NET_KQUEUE, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = admin_common_gch;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              9CDD32D9122B4519BA2D387E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              39B7C3EDF193447D98AE29F0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              1B9CCF0622BB488EB5BE4491 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D010253E379C4F798AF4504F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /Users/zhangpeng/rtmp/crtmpserver/sources/common/include, /Users/zhangpeng/rtmp/crtmpserver/sources/thelib/include, /Users/zhangpeng/rtmp/crtmpserver/sources/applications/admin/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/zhangpeng/rtmp/crtmpserver/builders/xcode/applications/admin;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              F8212FAC257B4D25A80F5916 /* Build configuration list for PBXProject  "admin" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CE9FEC46EAFD4D50A8EBC08B /* Debug */,
+                            0A964683B0294B41BE9680D2 /* Release */,
+                            563F2A2E883A4FD5B9DDB44E /* MinSizeRel */,
+                            B296F62AE33641A2A7729778 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2CF1A29D29B44D488726F2A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D1FB4C9CE2D24E28BA0069F0 /* Debug */,
+                            FA2B9C2739B04417A30B08BB /* Release */,
+                            AD81D12A5A83454D8F5CB006 /* MinSizeRel */,
+                            85E7693B3C184DB8B2F10978 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4F57AB3BBD78451A8D96D2EE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E69CC3FE9B7D4EAF8AE163EC /* Debug */,
+                            FF6A73756CB347399E9FFD25 /* Release */,
+                            3E08DC87AA1F4FE38690EA02 /* MinSizeRel */,
+                            B2FB9E50FA9E43108C1DD577 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F022FD9FF47A4AB3B7C762B7 /* Build configuration list for PBXNativeTarget "admin" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F176B5D0652A4611BC09F23D /* Debug */,
+                            075D5288DC724945B3E60572 /* Release */,
+                            F0ED3EEC66264F0B85E2EB40 /* MinSizeRel */,
+                            6308E8DE1DD3431F9B1773F5 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              5E82CD6C62E94297AA211EAB /* Build configuration list for PBXAggregateTarget "admin_common_gch" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9A0E26DC00DB4E43800856EF /* Debug */,
+                            8F03DA0F9FA540E9B38B7AB6 /* Release */,
+                            01D7E88D3E784A129BC27B37 /* MinSizeRel */,
+                            E4F76132426F403E9A51F8FC /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              72658C445C414507B6B32EBB /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9CDD32D9122B4519BA2D387E /* Debug */,
+                            39B7C3EDF193447D98AE29F0 /* Release */,
+                            1B9CCF0622BB488EB5BE4491 /* MinSizeRel */,
+                            D010253E379C4F798AF4504F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 0FAF3D6F675B441E8DB6A35B;
+}
